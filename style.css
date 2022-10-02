@@ -7,7 +7,22 @@
 p.verde {
     color: green;
 }
+/* Seletor de filho */
+/* precisa está diretamente relacionado */
 li>a {
-    color: brown;
+    color: brown; 
     text-decoration: none;
+}
+/* Seletor descendente */
+/* nao precisa está diretamente relacionado */
+p a {
+    color: darkgreen
+}
+/* Seletor irmao adjacente */
+h2+p {
+    color:darkorchid;
+}
+/* Seletor irmao geral */
+h3 ~ p {
+    color: deeppink;
 }
