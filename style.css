@@ -1,0 +1,13 @@
+/* Seletor universal */
+* {
+    border: 1px;
+}
+/* Seletores de class  */
+/* só comsegue usar o verde em p */
+p.verde {
+    color: green;
+}
+li>a {
+    color: brown;
+    text-decoration: none;
+}
